@@ -1,34 +1,56 @@
-📝 Mad Libs Generator (Python)
-A simple Python Mad Libs Generator that turns a story into a fun, interactive game.
-The program reads a text file, asks the user to fill in missing words (like adjectives, nouns, verbs), and then prints out the completed story.
+<div align="center">
 
-📌 How It Works
-The story is stored in a text file (story.txt).
-Words that need to be filled in are written inside square brackets:
-	Example: [adjective], [noun], [verb]
-The program:
-	Finds all bracketed words in the story
-	Asks the user to enter replacements
-	Inserts the user’s answers back into the story
-The final story is printed to the screen.
+# 🐍 Python Basic
 
-📂 Project Structure
-MadLibsGenerator/
-│
-├── MadlibsGenertor.py   # Main Python script
-├── story.txt            # Story template with placeholders
-└── README.md            # Project documentation
+![Language](https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge&logo=python)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Level](https://img.shields.io/badge/Level-Beginner-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)
 
-▶️ How to Run
-Make sure you have Python 3 installed.
-Place MadlibsGenertor.py and story.txt in the same folder.
-Open a terminal in that folder.
-Run the program:
-	python MadlibsGenertor.py
-Enter words when prompted.
-Enjoy your custom-generated story 🎉
+*Beginner-friendly Python projects where I practice coding basics, problem-solving, and small utilities.*
 
-✏️ Example Placeholder Format
-Inside story.txt:
-	Today I woke up feeling [adjective].
-	I met a [adjective] [animal] that could [verb].
+</div>
+
+---
+
+## 📌 About
+
+This repository tracks my early Python learning journey. Each script targets a specific concept — from string manipulation to file handling — and is kept simple and readable on purpose.
+
+---
+
+## 🔧 How to Run Any Script
+
+**Requirements:** Python 3.x
+
+```bash
+# Run any script directly
+python filename.py
+```
+
+> Some scripts may depend on a companion file (e.g. a `.txt` file). Make sure they are in the same folder before running.
+
+---
+
+## 📁 Structure
+
+```
+Python_basic/
+├── *.py          # Standalone Python scripts
+├── *.txt         # Companion data files (where needed)
+└── README.md
+```
+
+---
+
+## 📜 License
+
+Released under the [MIT License](LICENSE). Free to use and adapt for learning.
+
+---
+
+<div align="center">
+
+*Updated regularly as new concepts are practised* 🚀
+
+</div>
